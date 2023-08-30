@@ -70,6 +70,7 @@
     
     self.capture = [[ZXCapture alloc] init];
     self.capture.sessionPreset = AVCaptureSessionPreset1920x1080;
+    //self.capture.sessionPreset = AVCaptureSession.Preset.hd1280x720;
     switch (self.direction) {
         case kBack:
             self.capture.camera = self.capture.back;
